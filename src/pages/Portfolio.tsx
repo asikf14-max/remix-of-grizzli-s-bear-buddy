@@ -2,62 +2,55 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 
+import chargerImg from "@/assets/portfolio/charger.png";
+import thermosImg from "@/assets/portfolio/thermos.png";
+import minecraftLampImg from "@/assets/portfolio/minecraft-lamp.png";
+import goproImg from "@/assets/portfolio/gopro.png";
+import litEnergyImg from "@/assets/portfolio/lit-energy.png";
+import airpodsImg from "@/assets/portfolio/airpods.png";
+
 const portfolioItems = [
   {
     id: 1,
-    title: "Наушники A.PODS Pro",
+    title: "Наушники A.PODS Pro 2",
     category: "Электроника",
     platform: "WB",
-    image: "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=400&h=500&fit=crop",
+    image: airpodsImg,
   },
   {
     id: 2,
-    title: "Термос ENERGY",
+    title: "Термос с датчиком",
     category: "Товары для дома",
     platform: "OZON",
-    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=500&fit=crop",
+    image: thermosImg,
   },
   {
     id: 3,
-    title: "Спортивная бутылка",
-    category: "Спорт",
+    title: "Ночник Minecraft",
+    category: "Освещение",
     platform: "WB",
-    image: "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400&h=500&fit=crop",
+    image: minecraftLampImg,
   },
   {
     id: 4,
-    title: "Беспроводная колонка",
+    title: "GoPro HERO11 Black",
     category: "Электроника",
     platform: "OZON",
-    image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=500&fit=crop",
+    image: goproImg,
   },
   {
     id: 5,
-    title: "Косметика премиум",
-    category: "Красота",
+    title: "LIT ENERGY Blueberry",
+    category: "Напитки",
     platform: "WB",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=500&fit=crop",
+    image: litEnergyImg,
   },
   {
     id: 6,
-    title: "Часы Smart Watch",
+    title: "Зарядное устройство 25W",
     category: "Электроника",
     platform: "OZON",
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=500&fit=crop",
-  },
-  {
-    id: 7,
-    title: "Кофеварка Deluxe",
-    category: "Товары для дома",
-    platform: "WB",
-    image: "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=400&h=500&fit=crop",
-  },
-  {
-    id: 8,
-    title: "Рюкзак Urban",
-    category: "Аксессуары",
-    platform: "OZON",
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=500&fit=crop",
+    image: chargerImg,
   },
 ];
 
