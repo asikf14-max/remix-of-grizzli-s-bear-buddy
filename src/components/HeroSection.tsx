@@ -68,9 +68,7 @@ const HeroSection = () => {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
-        <a href="#faq" className="text-muted-foreground hover:text-foreground transition-colors">
-          <ChevronDown className="w-8 h-8 animate-bounce-slow" />
-        </a>
+        <ChevronDown className="w-8 h-8 animate-bounce-slow text-muted-foreground" />
       </div>
     </section>
   );
